@@ -1,4 +1,4 @@
-# Experiment 3: UI Design Using Material UI & Bootstrap
+# Experiment 2: UI Design Using Material UI & Bootstrap
 
 ## Aim
 To design a React application using **Material UI** and **Bootstrap** components.
