@@ -47,12 +47,12 @@ This setup ensures smooth page transitions without reloading the browser.
 # 📸 Screenshots
 
 ## 🏠 Home Page
-![Home Page](src/assets/Home Page.png)
+![Home Page](src/assets/Homepage.png)
 
 ---
 
 ## 👩‍💻 About Me Page
-![About Page](src/assets/About Me.png)
+![About Page](src/assets/About.png)
 
 ---
 
@@ -62,7 +62,7 @@ This setup ensures smooth page transitions without reloading the browser.
 ---
 
 ## 📞 Contact Me Page
-![Contact Page](src/assets/Contact Page.png)
+![Contact Page](src/assets/Contact.png)
 
 ---
 
