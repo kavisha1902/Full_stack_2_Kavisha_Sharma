@@ -9,4 +9,4 @@ When the user navigates to Dashboard, the component loads only when needed, and 
 ### ✅ Lazy Loading Fallback (Suspense)
 When Dashboard is being loaded, the fallback screen appears:
 
-![Lazy Loading Fallback](screenshots/Lazyoading.png)
+![Lazy Loading Fallback](screenshots/LazyLoading.png)
