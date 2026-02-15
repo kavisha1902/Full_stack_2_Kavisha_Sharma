@@ -38,7 +38,7 @@ Redux Toolkit simplifies Redux implementation by reducing boilerplate code and p
 ---
 
 ### Redux Counter – Initial State
-![Initial State](screenshots/initial counter.png)
+![Initial State](screenshots/initialcounter.png)
 
 ---
 
@@ -48,7 +48,7 @@ Redux Toolkit simplifies Redux implementation by reducing boilerplate code and p
 ---
 
 ### Redux Counter – Multiple Actions with History
-![Action History](screenshots/decrementfunc.png)
+![Action History](screenshots/decrementdfunc.png)
 
 ---
 
