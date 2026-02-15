@@ -36,12 +36,12 @@ This approach enables validation, conditional rendering, and real-time form data
 ---
 
 ### User Registration Form
-![User Registration Form](screenshots/Userform.png.png)
+![User Registration Form](screenshots/Userform.png)
 
 ---
 
 ### Form Inputs Filled Using Controlled Components
-![Filled Form](screenshots/userform2.png.png)
+![Filled Form](screenshots/userform2.png)
 
 ---
 
