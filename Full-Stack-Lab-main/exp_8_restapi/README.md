@@ -1,34 +1,22 @@
-# Read Me First
-The following was discovered as part of building this project:
+# Exp 8 - REST API
 
-* The original package name 'com.AIML2B.Rest-Api' is invalid and this project uses 'com.AIML2B.Rest_Api' instead.
+This experiment implements a Spring Boot REST API for Student management using Spring Web and Spring Data JPA. The application provides complete CRUD operations through the `/api/students` endpoint, including creating student records, retrieving all students or a single student by ID, updating existing records, and deleting records. The project follows a layered structure with controller, repository, and model components to keep the code organized and maintainable.
 
-# Getting Started
+## API Endpoints
 
-### Reference Documentation
-For further reference, please consider the following sections:
+- GET `/api/students` - Fetch all students
+- GET `/api/students/{id}` - Fetch student by ID
+- POST `/api/students` - Create a new student
+- PUT `/api/students/{id}` - Update an existing student
+- DELETE `/api/students/{id}` - Delete a student by ID
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/4.0.3/maven-plugin)
-* [Create an OCI image](https://docs.spring.io/spring-boot/4.0.3/maven-plugin/build-image.html)
-* [Spring Web](https://docs.spring.io/spring-boot/4.0.3/reference/web/servlet.html)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/4.0.3/reference/data/sql.html#data.sql.jpa-and-spring-data)
+## Running the Server
 
-### Guides
-The following guides illustrate how to use some features concretely:
+Use the following command from the `exp_8_restapi` folder:
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
-* [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
-
-### Maven Parent overrides
-
-Due to Maven's design, elements are inherited from the parent POM to the project POM.
-While most of the inheritance is fine, it also inherits unwanted elements like `<license>` and `<developers>` from the parent.
-To prevent this, the project POM contains empty overrides for these elements.
-If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
+```bash
+./mvnw spring-boot:run
+```
 
 ## Screenshots
 
